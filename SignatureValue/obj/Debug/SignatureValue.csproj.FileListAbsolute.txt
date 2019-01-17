@@ -1,0 +1,6 @@
+C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\bin\SignatureValue.dll.config
+C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\bin\SignatureValue.dll
+C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\bin\SignatureValue.pdb
+C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\obj\Debug\SignatureValue.csprojResolveAssemblyReference.cache
+C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\obj\Debug\SignatureValue.dll
+C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\obj\Debug\SignatureValue.pdb
