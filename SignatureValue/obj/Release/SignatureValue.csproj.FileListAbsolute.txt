@@ -5,3 +5,27 @@ C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\Signa
 C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\obj\Release\SignatureValue.pdb
 C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\obj\Release\SignatureValue.csprojAssemblyReference.cache
 C:\Users\Дмитри\Documents\Visual Studio 2015\Projects\SignatureValue\SignatureValue\obj\Release\SignatureValue.csproj.CoreCompileInputs.cache
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\bin\SignatureValue.dll.config
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\bin\SignatureValue.dll
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\bin\SignatureValue.pdb
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.csprojAssemblyReference.cache
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.csproj.CoreCompileInputs.cache
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.dll
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.pdb
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\bin\Newtonsoft.Json.dll
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\bin\RestSharp.Net2.dll
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\bin\Newtonsoft.Json.pdb
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\bin\Newtonsoft.Json.xml
+C:\Users\Дмитри\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.csproj.CopyComplete
+D:\Source\Repos\SignatureValue\SignatureValue\bin\SignatureValue.dll.config
+D:\Source\Repos\SignatureValue\SignatureValue\bin\SignatureValue.dll
+D:\Source\Repos\SignatureValue\SignatureValue\bin\SignatureValue.pdb
+D:\Source\Repos\SignatureValue\SignatureValue\bin\Newtonsoft.Json.dll
+D:\Source\Repos\SignatureValue\SignatureValue\bin\RestSharp.Net2.dll
+D:\Source\Repos\SignatureValue\SignatureValue\bin\Newtonsoft.Json.pdb
+D:\Source\Repos\SignatureValue\SignatureValue\bin\Newtonsoft.Json.xml
+D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.csprojAssemblyReference.cache
+D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.csproj.CoreCompileInputs.cache
+D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.csproj.CopyComplete
+D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.dll
+D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.pdb

@@ -15,9 +15,8 @@ namespace SignatureValue
     /// </summary>
     [WebService(Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
-    [System.ComponentModel.ToolboxItem(false)]
+    //[System.ComponentModel.ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
-    // [System.Web.Script.Services.ScriptService]
     public class GetSignatureValue : System.Web.Services.WebService
     {
         /// <summary>
@@ -26,17 +25,17 @@ namespace SignatureValue
         /// <param name="_xmlText">Текст xml который нужно подписать</param>
         /// <param name="_thumbprint">Код отпечатка</param>
         /// <returns>SignatureValue закодированная в base64</returns>
-        [System.Web.Services.WebMethod( Description = "Метод возвращает SignatureValue после подписания xml")]
+        [System.Web.Services.WebMethod(Description = "Метод возвращает SignatureValue после подписания xml")]
         public string getSignatureValue(string _xmlText, string _thumbprint)
         {
             X509Certificate2 myCert = null;
             _xmlText = _xmlText.Replace(" ", "+");
             byte[] data = System.Convert.FromBase64String(_xmlText);
             string base64Decoded = System.Text.UTF8Encoding.UTF8.GetString(data);
-            
+
             //string base64Decoded = System.Text.Encoding.UTF8.GetString(data);
             byte[] sign = Sign(_thumbprint, System.Text.UTF8Encoding.UTF8.GetBytes(base64Decoded), true);
-            
+
             string ret = Convert.ToBase64String(sign);
 
             return ret;
@@ -49,7 +48,7 @@ namespace SignatureValue
             store.Open(OpenFlags.ReadOnly);
 
             var certificates = store.Certificates.Find(X509FindType.FindByThumbprint, certificateThumbprint, false);
-            if (certificates.Count == 0) throw new Exception("Сертификат с отпечатком " + certificateThumbprint + " не найден в хранилище " + store.Location + ". Пользователь "+ Environment.UserName);
+            if (certificates.Count == 0) throw new Exception("Сертификат с отпечатком " + certificateThumbprint + " не найден в хранилище " + store.Location + ". Пользователь " + Environment.UserName);
 
             var contentInfo = new ContentInfo(data);
             var signedCms = new SignedCms(contentInfo, detached);
