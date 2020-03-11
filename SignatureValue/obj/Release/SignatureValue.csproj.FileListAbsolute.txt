@@ -29,3 +29,5 @@ D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.csproj.
 D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.csproj.CopyComplete
 D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.dll
 D:\Source\Repos\SignatureValue\SignatureValue\obj\Release\SignatureValue.pdb
+D:\Source\Repos\SignatureValue\SignatureValue\bin\Interop.CAdESCOM.dll
+D:\Source\Repos\SignatureValue\SignatureValue\bin\Interop.CAPICOM.dll

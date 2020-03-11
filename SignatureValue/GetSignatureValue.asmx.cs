@@ -40,6 +40,7 @@ namespace SignatureValue
 
             return ret;
         }
+        
 
         public byte[] Sign(string certificateThumbprint, byte[] data, bool detached)
         {

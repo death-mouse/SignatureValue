@@ -9,6 +9,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>C:\1\test\test</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="bin/Interop.CAdESCOM.dll">
+      <publishTime>02/21/2019 10:21:40</publishTime>
+    </File>
+    <File Include="bin/Interop.CAPICOM.dll">
+      <publishTime>02/21/2019 10:21:37</publishTime>
+    </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>03/20/2012 21:11:32</publishTime>
     </File>
@@ -19,10 +25,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/20/2012 22:05:54</publishTime>
     </File>
     <File Include="bin/SignatureValue.dll">
-      <publishTime>02/14/2020 16:06:04</publishTime>
+      <publishTime>03/11/2020 14:26:42</publishTime>
     </File>
     <File Include="bin/SignatureValue.pdb">
-      <publishTime>02/14/2020 16:06:04</publishTime>
+      <publishTime>03/11/2020 14:26:42</publishTime>
     </File>
     <File Include="getNFCReport.asmx">
       <publishTime>02/26/2019 09:52:35</publishTime>
@@ -38,6 +44,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="POSTServiceDeskAPI.asmx">
       <publishTime>07/11/2019 22:01:56</publishTime>
+    </File>
+    <File Include="SignBES.asmx">
+      <publishTime>03/03/2020 15:36:09</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>07/11/2019 22:09:02</publishTime>

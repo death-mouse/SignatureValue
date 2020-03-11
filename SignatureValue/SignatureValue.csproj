@@ -42,6 +42,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Interop.CAdESCOM, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Users\Дмитри\Downloads\Interop.CAdESCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CAPICOM">
+      <HintPath>C:\Users\Дмитри\Downloads\Interop.CAPICOM.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.4.5.1\lib\net20\Newtonsoft.Json.dll</HintPath>
@@ -73,6 +82,7 @@
     <Content Include="GetSignatureValue.asmx" />
     <Content Include="GetSignatureValue1251.asmx" />
     <Content Include="POSTServiceDeskAPI.asmx" />
+    <Content Include="SignBES.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +108,10 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignBES.asmx.cs">
+      <DependentUpon>SignBES.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
